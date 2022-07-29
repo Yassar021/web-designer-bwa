@@ -1,0 +1,159 @@
+* {
+    font-family: 'Poppins';
+}
+/* Navbar */
+.navbar {
+    padding-top: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #fff;
+    padding-bottom: 100px;
+}
+.navbar div{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 600;
+    color: #150544;
+}
+.navbar .hstack a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #5A6772;
+}
+.navbar .hstack .active {
+    font-weight: 500 !important;
+    color: #150544 !important;
+}
+.navbar .hstack .btn {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    background-color: #150544;
+    border-radius: 8px;
+}
+/* akhir navbar */
+
+.judul-content {
+    font-size: 48px;
+    font-weight: 800;
+    color:#150544;
+}
+.desc-content {
+    font-size: 18px;
+    font-weight: 400;
+    color: #5A6772;
+}
+/* features */
+#features{
+    background-image: url("/assets/bg-features.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#features .content {
+    padding-top: 70px;
+}
+#features .child-judul-features {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+    color: #150544;
+}
+#features .child-desc-features {
+    font-size: 16px;
+    font-weight: 300;
+    color: #5A6772;
+    margin-top: 6px;
+}
+#features .bagian-2 {
+    padding-top: 50px;
+}
+/* akhir features */
+
+/* package */
+#package {
+    padding-top: 100px;
+}
+#package .content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#package .content .card1 {
+    width: 320px;
+    height: 630px;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.05));
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+#package .content .card2 {
+    width: 320px;
+    height: 629px;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.1));
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+#package .content .btn{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    width: 260px;
+    height: 50px;
+    background-color: #6552FF;
+    border-radius: 8px;
+}
+#package .content .btn-mostpick{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    width: 260px;
+    height: 50px;
+    background-color: #150544;
+    border-radius: 8px;
+}
+/* akhir package */
+
+/* Stories */
+#stories {
+    width: 100%;
+    height: 576px;
+    background-image: url('/assets/bg-stories.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    padding-left: 290px;
+    padding-right: 290px;
+}
+
+#stories .message {
+    display: flex;
+    justify-content: center;
+}
+
+#stories .comment-stories {
+    font-size: 36px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 54px;
+    margin-left: 39px;
+}
+
+#stories .profile {
+    position: relative;
+    margin-top: -100px;
+}
+/* Akhir Strories */
